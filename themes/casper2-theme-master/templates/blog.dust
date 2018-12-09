@@ -8,11 +8,21 @@ into the {body} of the default.hbs template !}
         <div class="inner">
             <div id="Avencia_Nav">
                 <ul>
-                    <li>WHAT WE DO</li>
-                    <li>WHO WE ARE</li>
-                    <li>INSIGHTS</li>
-                    <li>JOIN THE TEAM</li>
-                    <li>CONTACT</li>
+                    <li>
+                        <a href="https://avenciaconsulting.com/#whatwedo_start">WHAT WE DO</a>
+                    </li>
+                    <li>
+                        <a href="https://avenciaconsulting.com/#whoweare_start">WHO WE ARE</a>
+                    </li>
+                    <li>
+                        <a href="/">BLOG</a>
+                    </li>
+                    <li>
+                        <a href="https://avenciaconsulting.com/#jointheteam_start">JOIN THE TEAM</a>
+                    </li>
+                    <li>
+                        <a href="https://avenciaconsulting.com/#contact_start">CONTACT</a>
+                    </li>
                 </ul>
             </div>
             <div class="site-header-content">

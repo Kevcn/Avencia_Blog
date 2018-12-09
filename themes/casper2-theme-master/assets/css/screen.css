@@ -538,7 +538,7 @@ body {
     padding-top: 12px;
     padding-bottom: 12px;
     color: #fff;
-    background: #090a0b no-repeat 50%;
+    background: rgb(1, 30, 65) no-repeat 50%;
     background-size: cover
 }
 
@@ -770,17 +770,27 @@ body {
 }
 
 .rss-button,
-.search-button {
+.search-button,
+.twitter-button,
+.linkedin-button {
     opacity: .8
 }
 
+.twitter-button {
+    margin-top: 5px;
+}
+
 .rss-button:hover,
-.search-button:hover {
+.search-button:hover,
+.twitter-button:hover,
+.linkedin-button:hover {
     opacity: 1
 }
 
 .rss-button svg,
-.search-button svg {
+.search-button svg,
+.twitter-button svg,
+.linkedin-button svg {
     margin-bottom: 1px;
     height: 2.1rem;
     fill: #fff
@@ -2183,16 +2193,16 @@ body {
 .site-footer {
     position: relative;
     padding-top: 20px;
-    padding-bottom: 60px;
+    padding-bottom: 20px;
     color: #fff;
-    background: #000
+    background: rgb(1, 30, 65);
 }
 
 .site-footer-content {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: justify;
-    justify-content: space-between;
+    justify-content: center;
     -ms-flex-align: center;
     align-items: center;
     -ms-flex-wrap: wrap;
@@ -2460,20 +2470,38 @@ figure.image img {
 
 
 #Avencia_Nav {
+    position: relative;
+    z-index: 1000;
+    display:flex;
+    justify-content: flex-end;
     margin-bottom: -33px;
     width: 100%;
     font-size: 13px;
+
 }
 
     #Avencia_Nav > ul {
         display: flex;
         padding: 0;
         list-style: none;
-        justify-content: flex-end;
         margin-bottom: 0;
     }
 
-        #Avencia_Nav > ul > li {
-            margin: .5em 1em;
-            padding: 0 .2em;
+        #Avencia_Nav > ul > li{
+            margin: 0;
+            padding: 0;
         }
+
+            #Avencia_Nav > ul > li > a {
+                color: #FFF;
+                display: inline-block;
+                margin: 0 .3em;
+                padding: .5em .8em;
+                opacity: .8;
+            }
+
+                #Avencia_Nav > ul > li > a:hover{
+                    color: rgb(229, 0, 91);
+                    text-decoration: none;
+
+                }

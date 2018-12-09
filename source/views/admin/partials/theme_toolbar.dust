@@ -1,7 +1,7 @@
 <div class="pl-toolbar">
   {! Dashboard !}
   <a class="pl-home pl-item" href="{@url type="admin"/}" title="{@i18n term="dashboard"/}">
-    <img src="{@url path="assets/images/postleaf_logo.svg"/}">
+    <img src="{@url path="assets/images/Avencia_icon.png"/}">
   </a>
 
   {! New post!}

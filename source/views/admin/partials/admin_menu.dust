@@ -5,7 +5,7 @@
     <div class="admin-menu-dropdown dropdown">
       {! Admin menu icon !}
       <a class="admin-menu-item admin-menu-logo" data-toggle="dropdown">
-        <img src="{@url path="assets/images/postleaf_logo.svg"/}" alt="{@i18n term="logo"/}">
+        <img src="{@url path="assets/images/Avencia_icon.png"/}" alt="{@i18n term="logo"/}">
       </a>
 
       {! Dropdown menu !}
@@ -19,7 +19,7 @@
               {?User.avatar}
                 "{@dynamicImage src=User.avatar thumbnail="100"/}"
               {:else}
-                "{@url path="assets/images/postleaf_logo.svg"/}"
+                "{@url path="assets/images/Avencia_icon.png"/}"
               {/User.avatar}
           >
           <div class="admin-menu-user-name">{User.name}</div>
@@ -43,23 +43,6 @@
         {! Edit profile !}
         <a class="dropdown-item" href="{@url type="admin" path="users/edit/{User.id}"/}">
           {@i18n term="edit_profile"/}
-        </a>
-
-        <div class="dropdown-divider"></div>
-
-        {! Postleaf.org !}
-        <a class="dropdown-item" href="https://www.postleaf.org/" target="_blank">
-          Postleaf.org
-        </a>
-
-        {! Postleaf on Twitter !}
-        <a class="dropdown-item" href="https://twitter.com/postleafapp" target="_blank">
-          {@i18n term="postleaf_on_twitter"/}
-        </a>
-
-        {! Help and support !}
-        <a class="dropdown-item" href="https://www.postleaf.org/support" target="_blank">
-          {@i18n term="help_and_support"/}
         </a>
 
         <div class="dropdown-divider"></div>

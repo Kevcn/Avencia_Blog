@@ -2911,7 +2911,7 @@ body:not(.no-menu){padding-left:3.75rem}
 .admin-menu{position:fixed;z-index:200;top:0;left:0;bottom:0;width:3.75rem;background:#272f33;color:#fff;padding:.4rem 0 4rem 0;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
 .admin-menu .admin-menu-dropdown .dropdown-menu{left:.75rem}
 .admin-menu .admin-menu-dropdown .admin-menu-user{position:relative;line-height:1.2;padding:.25rem 1rem .25rem 4rem;cursor:default}
-.admin-menu .admin-menu-dropdown .admin-menu-user img{position:absolute;top:.25rem;left:1rem;width:2.25rem;height:2.25rem;height:auto;border-radius:3px}
+.admin-menu .admin-menu-dropdown .admin-menu-user img{position:absolute;top:.25rem;left:1rem;width:1.9rem;height:2.25rem;height:auto;border-radius:3px}
 .admin-menu .admin-menu-dropdown .admin-menu-user .admin-menu-user-username{font-size:.9rem;color:#8aaab9}
 .admin-menu .admin-menu-items{position:absolute;top:4rem;bottom:0;left:0;width:3.75rem;overflow-y:auto}
 .admin-menu .admin-menu-item{text-align:center;font-size:1.5rem;color:#fff;transition:color .1s;padding:.4rem;display:block;cursor:pointer}

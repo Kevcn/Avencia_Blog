@@ -14,7 +14,7 @@
     {! Styles'n'Scripts !}
     <link rel="stylesheet" type="text/css" href="{@url type="theme" path="assets/css/global.css"/}" />
     <link rel="stylesheet" type="text/css" href="{@url type="theme" path="assets/css/screen.css"/}" />
-
+    <link rel="icon" href="/assets/images/Avencia_icon.png" />
     {! This tag outputes SEO meta+structured data and other important settings !}
     {@head/}
 
@@ -29,11 +29,7 @@
         {! The footer at the very bottom of the screen !}
         <footer class="site-footer outer">
             <div class="site-footer-content inner">
-                <section class="copyright"><a href="{@url/}">{Settings.title}</a> &copy; {@date format="YYYY"/}</section>
-                <nav class="site-footer-nav">
-                    <a href="{@url/}">Latest Posts</a>
-                    <a href="https://www.postleaf.org/" target="_blank">Postleaf</a>
-                </nav>
+                <section class="copyright">&copy; {@date format="YYYY"/} Avencia Consulting</section>
             </div>
         </footer>
 
