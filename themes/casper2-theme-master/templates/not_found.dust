@@ -14,7 +14,6 @@ This error template is used for all 400/500 errors which might occur on your sit
 </head>
 <body class="error-template">
     <div class="site-wrapper">
-
         <header class="site-header outer {?Settings.cover}" style="background-image: url({@url path=Settings.cover/}){:else}no-cover{/Settings.cover}">
             <div class="inner">
                 <nav class="site-nav-center">

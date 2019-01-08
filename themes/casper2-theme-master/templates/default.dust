@@ -15,6 +15,7 @@
     <link rel="stylesheet" type="text/css" href="{@url type="theme" path="assets/css/global.css"/}" />
     <link rel="stylesheet" type="text/css" href="{@url type="theme" path="assets/css/screen.css"/}" />
     <link rel="icon" href="/assets/images/Avencia_icon.png" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     {! This tag outputes SEO meta+structured data and other important settings !}
     {@head/}
 
@@ -41,12 +42,13 @@
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous">
     </script>
-
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     {@gt key=pagination.totalPages value="1"}
-        <script>
-            var maxPages = parseInt('{pagination.totalPages}');
-        </script>
+        <script>var maxPages = parseInt('{pagination.totalPages}');</script>
         <script src="{@url type="theme" path="assets/js/infinitescroll.js"/}"></script>
+        <script src="{@url type="theme" path="assets/js/navcollapse.js"/}"></script>
     {/gt}
 
     {! The script block will pull in data from the {<scripts} blocks in other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. !}
