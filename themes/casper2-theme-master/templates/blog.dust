@@ -6,7 +6,7 @@ into the {body} of the default.hbs template !}
     {! The big featured header, it uses blog cover image as a BG if available !}
     <header class="site-header outer {?Settings.cover}" style="background-image: url({@url path=Settings.cover/}){:else}no-cover{/Settings.cover}">
     <div class="inner">
-    <div class="fixed-top">
+    <div class="fixed-top" style="position: absolute">
         <nav class="navbar navbar-toggleable-md navbar-light bg-faded navbar-expand-lg">
             <div class="container">
                 <button class="navbar-toggler btnCol navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="border: none; border-color: transparent">

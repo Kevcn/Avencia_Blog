@@ -248,7 +248,7 @@ textarea {
 }
 
 blockquote, dl, ol, p, ul {
-    margin: 0 0 1.5em
+    margin: 0 0 1.5em;
 }
 
 ol, ul {
@@ -771,7 +771,8 @@ body {
     -ms-flex-direction: column;
     flex-direction: column;
     -ms-flex-pack: justify;
-    justify-content: space-between
+    justify-content: space-between;
+    font-size: 1.4em;
 }
 
 .post-card-excerpt {
