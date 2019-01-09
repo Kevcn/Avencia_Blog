@@ -772,7 +772,7 @@ body {
     flex-direction: column;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    font-size: 1.4em;
+    font-size: 1.6em;
 }
 
 .post-card-excerpt {
