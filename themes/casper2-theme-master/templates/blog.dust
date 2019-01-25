@@ -38,10 +38,12 @@ into the {body} of the default.hbs template !}
     <div class="site-header-content">
         <h1 class="site-title">
             {?Settings.logo}
+            <a class="logo-link" href="https://avenciaconsulting.com">
                 <img class="site-logo" src="{@url path=Settings.logo/}" alt="{Settings.title}" />
             {:else}
                         {Settings.title}
                     {/Settings.logo}
+                </a>
         </h1>
             <h2 class="site-description">{Settings.tagline}</h2>
     </div>
