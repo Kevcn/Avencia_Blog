@@ -15,14 +15,14 @@ into the {body} of the default.hbs template !}
                         <a href="https://avenciaconsulting.com/#whoweare_start">WHO WE ARE</a>
                     </li>
                     <li>
+                        <a href="https://avenciaconsulting.com/#contact_start">CONTACT</a>
+                    </li>
+                    <li>
                         <a href="/">BLOG</a>
                     </li>
                     <li>
-                        <a href="https://avenciaconsulting.com/#jointheteam_start">JOIN THE TEAM</a>
-                    </li>
-                    <li>
-                        <a href="https://avenciaconsulting.com/#contact_start">CONTACT</a>
-                    </li>
+                        <a href="https://careers.avenciaconsulting.com/JoinUs.aspx">JOIN THE TEAM</a>
+                    </li>                    
                 </ul>
             </div>
             <div class="site-header-content">
