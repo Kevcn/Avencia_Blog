@@ -22,14 +22,14 @@ into the {body} of the default.hbs template !}
                             <a class="nav-link" href="https://avenciaconsulting.com/#whoweare_start">WHO WE ARE</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="https://avenciaconsulting.com/#contact_start">CONTACT</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="/">BLOG</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="https://avenciaconsulting.com/#jointheteam_start">JOIN THE TEAM</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://avenciaconsulting.com/#contact_start">CONTACT</a>
-                        </li>
+                            <a class="nav-link" href="https://careers.avenciaconsulting.com/JoinUs.aspx">JOIN THE TEAM</a>
+                        </li>                        
                     </ul>
                 </div>
             </div>
